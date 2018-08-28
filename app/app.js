@@ -32,8 +32,8 @@ const sortData = function(csv, data) {
         csv.push(localData)
       // else look at text content
       } else {
-        // grrrrr
-        csv.push(parseFloat(da.textContent))
+        // grrrrr need to use parseFloat() here after index 0 & 1
+        csv.push(da.textContent.trim())
       }
     })
     // next row
