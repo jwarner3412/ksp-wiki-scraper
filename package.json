@@ -1,0 +1,18 @@
+{
+  "name": "ksp-wiki-scraper",
+  "version": "1.0.0",
+  "description": "extracts data from https://wiki.kerbalspaceprogram.com/wiki/Kerbol_System/Table and generates a csv text file. Planned JSON build next",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/jwarner3412/ksp-wiki-scraper.git"
+  },
+  "author": "James Warner",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^12.0.0"
+  }
+}
